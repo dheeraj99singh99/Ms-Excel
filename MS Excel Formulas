@@ -1,1 +1,42 @@
+Basic Math Functions
+=SUM(A1:A10) - Adds values in a range.
+=AVERAGE(A1:A10) - Calculates the average.
+=MIN(A1:A10) - Finds the minimum value.
+=MAX(A1:A10) - Finds the maximum value.
+=COUNT(A1:A10) - Counts the number of numeric entries.
+=COUNTA(A1:A10) - Counts all non-blank cells.
+=ROUND(A1,2) - Rounds a number to 2 decimal places.
+=ABS(A1) - Returns the absolute value.
+=INT(A1) - Rounds down to the nearest integer.
+=MOD(A1,B1) - Returns the remainder of a division.
 
+Text Functions
+=CONCAT(A1,B1) - Combines values from multiple cells.
+=TEXT(A1,"dd-mm-yyyy") - Formats a date or number as text.
+=LEFT(A1,3) - Extracts the first 3 characters.
+=RIGHT(A1,4) - Extracts the last 4 characters.
+=MID(A1,2,5) - Extracts 5 characters starting from the 2nd character.
+=LEN(A1) - Counts the number of characters.
+=TRIM(A1) - Removes extra spaces.
+=UPPER(A1) - Converts text to uppercase.
+=LOWER(A1) - Converts text to lowercase.
+=PROPER(A1) - Capitalizes the first letter of each word.
+
+Logical Functions
+=IF(A1>10,"Yes","No") - Returns "Yes" if A1 > 10, otherwise "No."
+=AND(A1>10, B1<5) - Returns TRUE if both conditions are true.
+=OR(A1>10, B1<5) - Returns TRUE if either condition is true.
+=NOT(A1>10) - Reverses the logical value.
+=IFERROR(A1/B1, "Error") - Returns "Error" if there is a calculation error.
+
+Date & Time Functions
+=TODAY() - Returns today’s date.
+=NOW() - Returns the current date and time.
+=DAY(A1) - Extracts the day from a date.
+=MONTH(A1) - Extracts the month from a date.
+=YEAR(A1) - Extracts the year from a date.
+=HOUR(A1) - Extracts the hour from a time.
+=MINUTE(A1) - Extracts the minutes from a time.
+=SECOND(A1) - Extracts the seconds from a time.
+=DATEDIF(A1, B1, "D") - Calculates the difference between two dates.
+=EDATE(A1,3) - Adds 3 months to a date.
